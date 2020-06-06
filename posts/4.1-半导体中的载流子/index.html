@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>半导体中的载流子</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	
+
+<header>
+	<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+	==================<br>
+	== <a href="http://example.org/">bwwei&#39;s blog</a> ==<br>
+	==================
+	<div style="float: right;"></div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.	
+			
+</header>
+
+
+
+	
+	<main>
+		<article>
+			<h1>半导体中的载流子</h1>
+			<b><time>06.06.2020 20:46</time></b>
+		       
+
+			<div>
+				<h3 id="41-半导体中的载流子">4.1 半导体中的载流子</h3>
+<p>两类型的载流子电荷：电子（导带底） 空穴（价带顶）</p>
+<p>导带电子（关于能量）的分布</p>
+<p>$$n(E)=g_c(E)f_F(E)\longrightarrow n=\int m(E)dE$$</p>
+<p>由上式得，导带中单位体积的中总电子浓度</p>
+<p>价带中空穴（关于能量）的分布</p>
+<p>$$p(E)=g_v(E)[1-f_F(E)]\longrightarrow p = \int p(E)dE$$</p>
+<p>由上式得，价带中单位体积的总空穴浓度</p>
+<p><strong>即热平衡时</strong></p>
+<p>电子浓度</p>
+<p>$$n_0=\int^{+\infty}_{E_c} g_c(E)f_F(E)dE$$</p>
+<p>$f_F(E)$简化为玻尔兹曼近似</p>
+<p>$$f_F(E) = \frac{1}{1+e^{\frac{E-E_F}{KT}}}\approx e^\frac{-(E-E_F)}{kT}$$</p>
+<p>$$\longrightarrow n_0 = N_e e^{\frac{-(E_c-E_F)}{kT}}   N_0=2(\frac{2\pi m_n^* T}{h^2})^{\frac{3}{2}}$$</p>
+<p>空穴浓度</p>
+<p>$$p_0 = \int^{E_v}_{-\infty}g_v(E)[1-f_f(E)]dE$$</p>
+<p>$$1-f_F(E)=\frac{1}{1+e^{\frac{E_F-E}{KT}}}\approx e^{\frac{-(E_F-E)}{kT}} $$</p>
+<p>$$\longrightarrow p_0 = N_ve^{\frac{-(E_F-Ev)}{kT}}$$</p>
+<p>$$N_v=2(\frac{2\lambda m_p^*kT}{h^2})^{\frac{3}{2}}$$</p>
+<p>本征半导体时</p>
+<p>$$E_p=E_pi$$</p>
+<p>$$n_o=n_i=N_c e^{\frac{-(E_c-E_{Fi})}{kT}}$$</p>
+<p>$$p_o=p_i=N_c e^{\frac{-(E_{Fi}-E_v)}{kT}}$$</p>
+<p>$$N_i^2=N_cN_v e^{\frac{-(E_c-E_v)}{kT}} =N_cN_ve^{\frac{-E_g}{kT}}$$</p>
+<p>温度恒定时，$n_i$为变值，与费米能级$E_p$无关</p>
+<p>（$T=300K$时，硅的$n_i\approx 1.5\times 10^{10} cm^{-3}$ 本征载流子浓度强烈依赖于温度材料 $T\uparrow kT\uparrow  m^{-2}\uparrow$）</p>
+<p>禁带中央 $\frac{1}{2}(E_c+E_v)=E_{midgap}$</p>
+<p>则有$E_{Fi}-E_{midgap}=\frac{m_p^*}{m_n^*}$</p>
+<p>若$m_p^<em>=m_n^</em>$ 则$E_{Fi}=E_{midgap}$ 若$m_p^*&gt;m_n^*$  则$E_{Fi}&gt;E_{midgap}$</p>
+<p>若$m_p^<em>&lt;m_n^</em>$ 则$E_{Fi}&lt;E_{midgap}$ $\longrightarrow$ 有效质量$m^* \uparrow$ 状态密度$\uparrow$</p>
+<p>$\longrightarrow$ 本征费米能级位置随状态密度上升而发生移动，以保持电子和空穴数量相等</p>
+<h3 id="42-掺杂原子与能级">4.2 掺杂原子与能级</h3>
+<ul>
+<li>本征半导体：纯净的单晶半导体</li>
+<li>非本征半导体：掺杂杂质的半导体</li>
+<li>n型半导体：由于施主杂质原子增加的导带电子，但并不产生价带空穴 $n_0&gt;p_0 E_F&gt;E_{Fi}$</li>
+<li>p型半导体：受主杂质原子能在价带总产生空穴，但在产生导带电子$n_0&lt;p_0 E_F&lt;E_{Fi}$</li>
+</ul>
+<p><em>施主进入导带$\Delta E_d =E_c-E_d$</em> <em>受主进入导带$\Delta E_a =E_a-E_v$</em></p>
+<h3 id="43-非本征半导体">4.3 非本征半导体</h3>
+<ul>
+<li>电子浓度： $n_0=n_i e^{\frac{-(E_F-E_{Fi})}{kT}}$</li>
+<li>空穴浓度： $n_0=p_i e^{\frac{-(E_F-E_{Fi})}{kT}}$</li>
+</ul>
+<p>$n_0p_0=N_cN_ve^{\frac{-(E_F-E_{Fi})}{kT}} = n_i^2$</p>
+<p>非简并半导体：$n$型半导体引入分立的，无相互作用的施主能级</p>
+<p>（玻尔兹曼近似成立）$p$型半导体引入分立的，无相互作用的受主能级</p>
+<p>简并半导体：$n$型半导体中施主掺杂浓度增加，导带中电子浓度超过状态密度$N_c$</p>
+<p>（能级分裂成能带）(玻尔兹曼近似不成立)$p$型半导体中受主掺杂浓度增加，价带中空穴浓度超过状态密度$N_v$</p>
+<p>$n_d$：施主能级上电子浓度
+$N_d$：施主杂质浓度
+$N_d^+$：电离施主杂质浓度
+$n_d=N_d-N_d^+$</p>
+<p>$p_d$：受主能级上电子浓度
+$N_a$：受主杂质浓度
+$N_a^-$：电离受主杂质浓度
+$P_a=N_a-N_a^-$</p>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/4.1-%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E8%BD%BD%E6%B5%81%E5%AD%90/">半导体中的载流子</a></li>
+				
+				<li><a href="/posts/s10e/">三星S10e，不太优秀，只是它没有对手</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2020 <a href="http://example.org/"><b>bwwei&#39;s blog</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>
