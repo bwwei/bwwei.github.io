@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bwwei&#39;s blog</title>
-    <link>http://example.org/</link>
+    <link>http://bwwei.github.io/</link>
     <description>Recent content on bwwei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Sep 2019 13:16:57 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bwwei.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>半导体中的载流子</title>
-      <link>http://example.org/posts/4.1-%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E8%BD%BD%E6%B5%81%E5%AD%90/</link>
+      <link>http://bwwei.github.io/posts/4.1-%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E8%BD%BD%E6%B5%81%E5%AD%90/</link>
       <pubDate>Sat, 06 Jun 2020 20:46:13 +0800</pubDate>
       
-      <guid>http://example.org/posts/4.1-%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E8%BD%BD%E6%B5%81%E5%AD%90/</guid>
+      <guid>http://bwwei.github.io/posts/4.1-%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E8%BD%BD%E6%B5%81%E5%AD%90/</guid>
       <description>4.1 半导体中的载流子 两类型的载流子电荷：电子（导带底） 空穴（价带顶）
 导带电子（关于能量）的分布
 $$n(E)=g_c(E)f_F(E)\longrightarrow n=\int m(E)dE$$
@@ -49,10 +49,10 @@ $$N_i^2=N_cN_v e^{\frac{-(E_c-E_v)}{kT}} =N_cN_ve^{\frac{-E_g}{kT}}$$
     
     <item>
       <title>三星S10e，不太优秀，只是它没有对手</title>
-      <link>http://example.org/posts/s10e/</link>
+      <link>http://bwwei.github.io/posts/s10e/</link>
       <pubDate>Mon, 11 May 2020 20:55:30 +0800</pubDate>
       
-      <guid>http://example.org/posts/s10e/</guid>
+      <guid>http://bwwei.github.io/posts/s10e/</guid>
       <description>主观，偏激，不理性。
  上个月，在iPhone se2发布前，我购入了S10e。S10e在参数上的优势很多，但对我而言没什么特殊的原因，就只是因为刚好手机坏了，馋S10e的身子。三星S10e够小够轻算是台手机，仅此而已。
 因为众所周知的原因，似乎没有厂商再愿意做小尺寸手机了。在我看来，三星S10e是没有对手的手机。
@@ -80,10 +80,10 @@ Samsung S10e的优点是OneUI，但是对我而言，OneUI也是痛点。一是�
     
     <item>
       <title>怎么使用hugo？</title>
-      <link>http://example.org/how2usehugo/</link>
+      <link>http://bwwei.github.io/how2usehugo/</link>
       <pubDate>Wed, 04 Sep 2019 13:16:57 +0800</pubDate>
       
-      <guid>http://example.org/how2usehugo/</guid>
+      <guid>http://bwwei.github.io/how2usehugo/</guid>
       <description>希望好久不碰hugo的自己看到这篇文章能回想起怎么使用hugo做一个博客。
 删除GitHub中的commit记录 因为不熟悉git的命令, 所以每次上传到github page以后, commit可谓是乱七八糟, 非常恶心, 我对此非常苦恼.
 我的方法 我和大多数新手一样，每次上传新文章用的都是官方教程里的命令, 可一不小心, commit里就多些奇怪的东西.
